@@ -1,11 +1,22 @@
 .navbar {
-  background-color: olivedrab;
-  color: fuchsia;
-  height: 5vh;
+  /* background-image: linear-gradient(ivory, rgb(69, 69, 69)); */
+  background-color: ivory;
+  color: rgb(15, 15, 15);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+  height: 4vh;
+  width: 100vw;
+  display: flex;
+  margin-bottom: 0.5vh;
 }
 
-.pageBase {
-  background-color: rgb(10, 10, 10);
+h1 {
   color: black;
-  height: 95vh;
+  padding-left: 10px;
+  font-family: monospace;
+  font-size: x-large;
+}
+
+img {
+  padding: 5px;
+  padding-left: 10px;
 }
